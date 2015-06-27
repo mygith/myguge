@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>九尾搜索_原谷粉搜搜</os:ShortName>
+<os:Description>九尾搜索_原谷粉搜搜</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADFElEQVQ4jYWSf0yUdRzHXwc3LxN2Z6PIG6Fxx53QUSbLlYyh5li50s3BcrVYu4g5jVr2Q3SuWBOcmS6cUk3kwXUTPXWxHOuHLaXFXFJNuHEHcSjz+HF3zwN393jwmDzHtz8qt2jV69/P5/Xe57O9YR5eL+m3vNiFh2eiH3D//Pn/kjrJNnEaces4InKQn3WJl4SEW5zgaeEh519F8T5PyE0Uz51CT0qosaOEZ9uYERJCtCIiHzJyaSuv1NeTNvEka/8uv4xd3UqHcgTpt3Zux1uIilPMiVZSqWb0q9v57sZzSBcqMY+W8sZQEaeB9D9+hnRRSu1kCV9qbXTJHkbF56TmTqCrR5g8U0F9dCN7ph6nT3YwPJ6DL5RB7/AC45UfTSYHoUoWiufxyBv5ONLEN6nP0ITE7dhhxoPvcUE/wLi6hTG1kMFYDr5JCz45E//Q3car395DIeEXWaS7Oa88y77pRs7NfYSmNaBEG/hVPYQ8Uk+/XENAseNPmA0DCaMxEF/AoGJhJJBFMaFKFmqbkJQyGmd34k/tJx7fTTCym6HZg6ipT9DU/YxNuOmPPsZPaiYDcROBZBYT/qVs4OIajMm17IiV0KLvJJh6l8hYNZen3iJ4qZrmLQ9QeqaKanUvvkE30vC9nE1YCGrZRAbsVHB9DXfF1nEovIpjs7UM6NsJ+TfQ0VtFp9xIO2AAiOxiR5+buk+LydXsKEkbE5cLWM+4leXKCnqiBRxLPEWnXkWoycXqtnXYurdRUVfEYoCvNrOkZj3mpItyzYYSLaD3BydOeszkKRaUa/nsvebgaGoTN7pXs/TPihjmF24ml+5pK2PDLlrecZLJYTD9kpHeHMowfN+1hNdDK/Goq2gIZ7NIQNpfovwo1hkb3puLCYVt+M7bKb+TWpOH+aLF+GZPZlrLF9nU9uVzsr+QXcGHKLm5jDL1Qd6eXsaVhJWpoXwCnQ6q/3mdwHDAxn3eLJwduVT15tGVcODXlnM9aSMx4mD0axftrUWU3anxf5D2qhNr3SOU71vBC3tWsvm1h3HV2jHNX/wdTSJdAmsK/2EAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://www.jwss.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.jwss.cc/" resultDomain="jwss.cc">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

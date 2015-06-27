@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>AOL Search</os:ShortName>
+<os:Description>AOL Search</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACwElEQVQ4jZWTX2xTdRTHm/Dio4QHH0iMb7zAg28GExN9koQQOqzJlpBszPVulLS77WDg0FEoKWVZlbllXWs3eouJgYQ/QyEQjJHFIBKI+sDLggiz/27b+zvbxY3eln58qJnuwUy/yXk73+/5npPvcbn+gj5jbQudUyeChnj8hrW1c+bxS67/g9A59fGAIQSzKh/Kqm+DhhrvT1s+f1q93TtZ2by+QEblQlkhZAjBs4Ke/rsCaWkEkjIfmFJf+RPWiG+8+v4acr8h7wxkhVBG0CYVB5KCPi30p4VASggkhcCU4E8IXXFFz6eKvqhsXBUIZtSVgYzgSwqDxiL+lOBPCf0p4UBC6B1X7J8QfBOCnhD8E0L3qPm6y+VyuQKp0iv6tNA9bnHIWGTFaTJ79xmeUxW8nyk6Tlv0jCl2h6vsjSn+qDW5/oONe8j0tOx/rkb1acEdrXDxzjIAZVVjT8SkM664P18H4NaDZd4LlwG4/dMiO4ILgy0HabXLlxS6zijslSZzvywhtkPYUHz9o0Oz6ZC4bAJw9XubBbPOjTvCG978mdUb7DyuLsQv2QBYS62JN+/Z/Fqo8yS/zPaOBeyVJo9zz3iUe87sd4tMXX3+83nDeLW1xox62bRfUHccvvzG4uFvKzQadTLXq9ScF9ScBo5T4/DYAtZSg7kHCmhy7/aFT1ZdTBk3Ih99scSbgQJdsSrJWQttpMiRyQrGtQqHxnK0DeaJZyscGSsRmbYJhYbeWpOH9rhd1CeEfbEq7g/LdEcrtA+b7D5YoH3IpO9UGbf+O+2DBdr00rzbd3fTGgEtXn23b9Sid6SCFiu3KmqinTTRjpfwhov0DBeufHA03/avkdZi5blVYtREO1FCCxeeeofzJ/cdzW1Z9yc6o4XXtKiJFimhhYs3vcfyHR7P+Q3rEv8Jb6R4uCec3/tfev8E0lMXAJw4l7EAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://www.aolsearch.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.aolsearch.com/search" resultDomain="aolsearch.com">
+  <os:Param name="s_it" value="searchbox.webhome"/>
+  <os:Param name="v_t" value="na"/>
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>
